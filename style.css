@@ -1,0 +1,215 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+h1, ul, p {
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: vertical-text;
+    max-width: 100%;
+    min-width: 75%;
+}
+
+p {
+font-size: 22px;
+
+
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size:48px ;
+font-style: normal;
+font-weight: 100;
+margin-left: -9.95% ;
+
+
+
+
+}
+
+a {
+text-decoration: none;   
+color: #000000;
+cursor: pointer;
+}
+
+ul {
+    font-size: 24px;
+    list-style-type: none;
+    padding-bottom: 35px;
+    
+    
+}
+li {
+    display: inline-block;
+    padding: 0px 35px;
+    padding-left: 0px;   
+}
+
+body {
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+li a:hover {
+color: rgb(116, 116, 116);
+
+}
+
+a:hover.bandcamp {
+color: #629aa9
+
+}
+a:hover.soundcloud {
+    color: #ff7700
+    
+    }
+    
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:48px ;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+    margin-left: -4px;
+    width: 100%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: vertical-text;
+    max-width: 100%;
+    min-width: 75%;
+}
+.menu {
+width: 100%;
+}
+.links {
+width: 100%;
+}
+
+@media only screen and (min-width: 80px) {
+
+    p {
+        letter-spacing: 1px;
+        
+    }
+
+   
+
+    ul {
+        letter-spacing: 1px;
+    }
+
+    li {
+        
+        padding: 0px 15px;
+        padding-left: 0px; 
+           
+    }
+    
+    .logo {
+        letter-spacing:3px;
+
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    p {
+        letter-spacing: 2.5px;
+        
+    }
+
+  
+    ul {
+        letter-spacing: 3.75px;
+    }
+
+    li {
+        
+        padding: 0px 15px;
+        padding-left: 0px; 
+           
+    }
+    .logo {
+        letter-spacing:7.5px;
+
+    }  
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    p {
+        letter-spacing: 5px;
+        
+    }
+
+
+    ul {
+        letter-spacing: 7.5px;
+    }
+
+    li {
+        
+        padding: 0px 30px;
+        padding-left: 0px; 
+           
+    } 
+    .logo {
+        letter-spacing: 15px;
+
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    p {
+        letter-spacing: 26px;
+        font-size: 33px;
+    }
+
+    .logo {
+        letter-spacing: 60px;
+        font-size: 72px;
+    }
+
+    ul {
+        letter-spacing: 16px;
+        font-size: 36px;
+    }
+    li {
+        
+        padding: 0px 130px;
+        padding-left: 0px; 
+           
+    }
+   
+}
+
+span {
+ opacity: 0;
+ transition: ALL 2s ease; 
+ transform: translateX(-100px);  
+ display: inline-block;
+}
+
+span.fade {
+    opacity: 1;
+    transform: translateX(0px);  
+    
+}
+
+
+
+svg {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1; 
+  }
+

@@ -1,0 +1,37 @@
+   /*.square {
+    stroke-dasharray: 4;
+    animation: dash 100s infinite steps(1300);
+    
+    
+  }
+  
+ @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+  */
+
+      <div class="boxes">
+    <svg viewBox="-10 10 340 300">
+        <path class="top" fill="transparent" stroke="black" stroke-width= .4px d="m 0 0 h 100 v 50 h 10 v -50 z" />
+      </svg>
+
+      
+
+    </div>
+
+    .boxes {
+    stroke-dasharray: 2.5;
+    stroke-dashoffset: 1000;
+    animation: dash 100s steps(1400) infinite;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
